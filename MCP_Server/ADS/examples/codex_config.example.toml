@@ -1,0 +1,5 @@
+[mcp_servers.ads2026]
+command = 'cmd.exe'
+args = ['/d', '/s', '/c', '%USERPROFILE%\Desktop\ADS2026_MCP_Server\start_mcp.bat']
+startup_timeout_sec = 60
+tool_timeout_sec = 900
