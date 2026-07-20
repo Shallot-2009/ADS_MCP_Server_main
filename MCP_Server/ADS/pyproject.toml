@@ -1,0 +1,18 @@
+[project]
+name = "keysight-ads2026-mcp"
+version = "0.1.0"
+description = "Codex MCP bridge for Keysight ADS 2026"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.24,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.uv]
+package = false
